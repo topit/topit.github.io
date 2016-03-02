@@ -507,8 +507,8 @@ a {
   text-align: center;
 }
 #header .profilepic img {
-  width: 128px;
-  height: 128px;
+  width: 20%;
+  height: 20%;
   -webkit-border-radius: 300px;
   border-radius: 300px;
   opacity: 0;
