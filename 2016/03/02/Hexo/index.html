@@ -4,19 +4,19 @@
   <meta charset="utf-8">
   
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
-  <title>Markdown语法测试 | Topit</title>
+  <title>使用Hexo+Github建立博客 | Topit</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Markdown语法测试">
+  <meta name="description" content="Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Markdown语法测试">
-<meta property="og:url" content="http://yoursite.com/2016/03/02/Markdown语法测试/index.html">
+<meta property="og:title" content="使用Hexo+Github建立博客">
+<meta property="og:url" content="http://yoursite.com/2016/03/02/Hexo/index.html">
 <meta property="og:site_name" content="Topit">
-<meta property="og:description" content="Markdown语法测试">
-<meta property="og:image" content="http://ww4.sinaimg.cn/bmiddle/aa397b7fjw1dzplsgpdw5j.jpg">
-<meta property="og:updated_time" content="2016-03-02T03:25:48.162Z">
+<meta property="og:description" content="Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。">
+<meta property="og:image" content="http://7xre6m.com1.z0.glb.clouddn.com/ssh.png">
+<meta property="og:updated_time" content="2016-03-03T02:31:51.269Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Markdown语法测试">
-<meta name="twitter:description" content="Markdown语法测试">
+<meta name="twitter:title" content="使用Hexo+Github建立博客">
+<meta name="twitter:description" content="Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。">
   
     <link rel="alternative" href="/atom.xml" title="Topit" type="application/atom+xml">
   
@@ -188,11 +188,11 @@
 	</div>
 </nav>
 
-      <div class="body-wrap"><article id="post-Markdown语法测试" class="article article-type-post" itemscope itemprop="blogPost">
+      <div class="body-wrap"><article id="post-Hexo" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
-      <a href="/2016/03/02/Markdown语法测试/" class="article-date">
-  	<time datetime="2016-03-02T03:07:40.000Z" itemprop="datePublished">2016-03-02</time>
+      <a href="/2016/03/02/Hexo/" class="article-date">
+  	<time datetime="2016-03-02T03:30:32.000Z" itemprop="datePublished">2016-03-02</time>
 </a>
     </div>
   
@@ -205,7 +205,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      Markdown语法测试
+      使用Hexo+Github建立博客
     </h1>
   
 
@@ -214,7 +214,7 @@
       <div class="article-info article-info-post">
         
 	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Other/">Other</a></li></ul>
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/">Hexo</a></li></ul>
 	</div>
 
         
@@ -225,72 +225,58 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>Markdown语法测试<br><a id="more"></a></p>
-<p>#一级标题</p>
-<p>##二级标题</p>
-<p>###无序列表</p>
-<ul>
-<li>a</li>
-<li>b</li>
-<li>c</li>
+        <p>Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。</p>
+<a id="more"></a>
+<h2 id="环境准备"><a href="#环境准备" class="headerlink" title="环境准备"></a>环境准备</h2><p>我使用的是<code>Windows</code>平台。</p>
+<h3 id="安装Node-JS"><a href="#安装Node-JS" class="headerlink" title="安装Node.JS"></a>安装Node.JS</h3><p><a href="https://nodejs.org/en/" target="_blank" rel="external">Node.JS</a></p>
+<h3 id="安装GIT"><a href="#安装GIT" class="headerlink" title="安装GIT"></a>安装GIT</h3><p><a href="http://git-scm.com/download/" target="_blank" rel="external">Git</a>或者是<a href="https://windows.github.com/" target="_blank" rel="external">Github Windows</a>。</p>
+<h3 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h3><p>打开<code>Git Bash</code>或者<code>Git Shell</code>，如果是第一次使用Git，首先使用下面两条命令：</p>
+<pre><code>$ git config --global user.name &quot;Your Name&quot;
+$ git config --global user.email &quot;email@example.com&quot;
+</code></pre><p>记录名字和邮箱；接着输入<code>npm</code>命令安装Hexo：</p>
+<pre><code>npm install hexo-cli -g
+npm install hexo --save
+</code></pre><h2 id="Hexo初始化"><a href="#Hexo初始化" class="headerlink" title="Hexo初始化"></a>Hexo初始化</h2><p>在建立好的目录里，进行初始化，我使用的是Git Bash，在该文件夹右键会看到<code>Git Bash Here</code>，输入</p>
+<pre><code>hexo init
+npm install
+</code></pre><p>至此，Hexo已经建立好了博客。</p>
+<h3 id="写博客"><a href="#写博客" class="headerlink" title="写博客"></a>写博客</h3><pre><code>hexo n &quot;文章标题&quot;
+</code></pre><p>Hexo会创建好<code>.md</code>文件，可以去<code>.\source\_posts</code>目录下找到，进行编辑，Markdown编辑器推荐使用<a href="http://www.markdownpad.com/" target="_blank" rel="external">MarkdownPad2</a>。<br>相关Markdown教程：<a href="http://www.jianshu.com/p/21d355525bdf" target="_blank" rel="external">Markdown入门学习小结</a>。</p>
+<h3 id="本地预览"><a href="#本地预览" class="headerlink" title="本地预览"></a>本地预览</h3><pre><code>npm install hexo-server --save
+</code></pre><p>安装Hexo-server插件，可以使用</p>
+<pre><code>hexo g
+#生成
+hexo s
+#启动本地服务器
+</code></pre><p>可以打开浏览器输入<code>http://127.0.0.1:4000</code>，查看效果。</p>
+<h2 id="将本地博客部署到Github"><a href="#将本地博客部署到Github" class="headerlink" title="将本地博客部署到Github"></a>将本地博客部署到Github</h2><ul>
+<li>首先注册一个『GitHub』帐号</li>
+<li>建立与账户名对应的仓库，仓库名必须为your_user_name.github.com』或your_user_name.github.io』</li>
+<li>添加SSH公钥到『Account settings -&gt; SSH Keys -&gt; Add SSH Key』</li>
 </ul>
-<ul>
-<li>a</li>
-<li>b</li>
-<li>b</li>
-</ul>
-<p>###有序列表</p>
-<ol>
-<li>a</li>
-<li>b</li>
-<li>c</li>
-</ol>
-<p>###插入链接<br><a href="http://jianshu.io" target="_blank" rel="external">简书</a></p>
-<p>###插入图片<br><img src="http://ww4.sinaimg.cn/bmiddle/aa397b7fjw1dzplsgpdw5j.jpg" alt="塔"></p>
-<p>###引用</p>
-<blockquote>
-<p>中午不睡下午崩溃——孔子曰</p>
-<blockquote>
-<p>孔子说的对——孟子曰</p>
-</blockquote>
-</blockquote>
-<p>####诗的引用（粗体与斜体）</p>
-<blockquote>
-<p>床前明<strong>月光</strong><br>疑似地上<em>霜</em><br>举头<em>望</em>明月<br>低头思<strong>故乡</strong></p>
-</blockquote>
-<p>###表格</p>
-<table>
-<thead>
-<tr>
-<th>Tables</th>
-<th style="text-align:center">Are</th>
-<th style="text-align:right">Cool</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>col 3 is</td>
-<td style="text-align:center">right-aligned</td>
-<td style="text-align:right">$1600</td>
-</tr>
-<tr>
-<td>col 2 is</td>
-<td style="text-align:center">centered</td>
-<td style="text-align:right">$12</td>
-</tr>
-<tr>
-<td>zebra stripes</td>
-<td style="text-align:center">are neat</td>
-<td style="text-align:right">$1</td>
-</tr>
-</tbody>
-</table>
-<p>###如果图片链接带括号<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![][1]&#10;[1]: http://latex.codecogs.com/gif.latex?\prod%20\(n_&#123;i&#125;\)+1</span><br></pre></td></tr></table></figure></p>
-<p>###插入代码<br>用```包围起来</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">System.out.println(&#34;Hello world&#34;);</span><br></pre></td></tr></table></figure>
-<p>###转义字符<br>\<br>`<br>*<br>_<br>{}<br>[]<br>()<br>#<br>+<br>-<br>.<br>!</p>
-<p>参考<a href="http://www.jianshu.com/p/21d355525bdf" target="_blank" rel="external">Markdown入门学习小结</a></p>
-<p><del>文字删除线</del></p>
+<p>生成密钥：</p>
+<pre><code>ssh-keygen -t rsa -C &quot;email@example.com&quot;
+Generating public/private rsa key pair.
+Enter file in which to save the key (//.ssh/id_rsa): H:\git\myssh\ssh #可以直接Enter
+Enter passphrase (empty for no passphrase): #输入密码，也可以不输入
+Enter same passphrase again:
+Your identification has been saved in H:\git\myssh\ssh.
+Your public key has been saved in H:\git\myssh\ssh.pub.
+ key fingerprint is:
+b0:0c:2e:67:33:ab:c1:50:10:40:0a:ba:c1:80:59:22 email@example.com
+</code></pre><p>将密钥添加到Github：<br>用文本编辑器打开ssh.pub文件，拷贝其中的内容，将其添加到Add SSH Key<br><img src="http://7xre6m.com1.z0.glb.clouddn.com/ssh.png" alt=""><br>然后使用</p>
+<pre><code>ssh -T git@github.com
+</code></pre><p>验证连接情况；至此Github端配置好了。接下来修改Hexo的配置，打开<code>_config.yml</code>文件，修改Deployment项</p>
+<pre><code>deploy:
+    type: git
+    repository: git@github.com:topit/topit.github.io.git#输入Github仓库地址
+    branch: master
+</code></pre><p>然后执行命令：</p>
+<pre><code>npm install hexo-deployer-git --save #安装git支持
+</code></pre><p>至此所以配置均已做好，只需要执行</p>
+<pre><code>hexo g#生成
+hexo d#部署
+</code></pre><p>就完成了博客的创建。</p>
 
       
     </div>
@@ -300,18 +286,18 @@
     
 <nav id="article-nav">
   
-    <a href="/2016/03/02/Hexo/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="/2016/03/27/DOM001/" id="article-nav-newer" class="article-nav-link-wrap">
       <strong class="article-nav-caption"><</strong>
       <div class="article-nav-title">
         
-          使用Hexo+Github建立博客
+          JavaScript DOM学习笔记1-节点层次
         
       </div>
     </a>
   
   
-    <a href="/2016/03/02/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">Hello World</div>
+    <a href="/2016/03/02/Markdown语法测试/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">Markdown语法测试</div>
       <strong class="article-nav-caption">></strong>
     </a>
   
@@ -346,7 +332,7 @@
 
 <div class="duoshuo">
 	<!-- 多说评论框 start -->
-	<div class="ds-thread" data-thread-key="Markdown语法测试" data-title="Markdown语法测试" data-url="http://yoursite.com/2016/03/02/Markdown语法测试/"></div>
+	<div class="ds-thread" data-thread-key="Hexo" data-title="使用Hexo+Github建立博客" data-url="http://yoursite.com/2016/03/02/Hexo/"></div>
 	<!-- 多说评论框 end -->
 	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
 	<script type="text/javascript">
